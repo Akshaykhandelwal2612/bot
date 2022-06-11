@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "hiiiii", "help", "hellloooooo" ],
+            "responses": [ "Hi there, how can I help?" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" ],
+            "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon." ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [ "" ],
+            "responses": [ "Sorry, can't understand you", "Please give me more info", "Not sure I understand" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "options",
+            "patterns": [ "How you could help me?", "What help you provide?", "How you can be helpful?", "What support is offered" ],
+            "responses": [ "I can tell you about our organization, Guide you throgh our programs, provide you with the contact details of the organization" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "about_us",
+            "patterns": [ "Tell about Banglore food bank", "What is banglore food bank?", "What is your vision", "What does your NGO do" ],
+            "responses": [ "Bangalore Food Bank is an NGO with a mission to combat hunger, malnutrition, and food waste through its programmes." ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "achievements",
+            "patterns": [ "why to donate to Banglore food bank?", "What are your achievements?", "How many people have benifitted through you?" ],
+            "responses": [ "Bangalore Food Bank has purchased 519 tonnes of food products to date. We were able to provide more than 54 lakh feeds to the needy as a result of this." ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [ "Tell me your contact details", "What is your email?", "What is your address?", "How to reach out to you?", "What is your contact number?" ],
+            "responses": [ "You can reachout to us at , +91- 9538035252, or by dropping us an email at info@bangalorefoodbank.com. Our current address is Site No. 3 & 4, KHB Colony, Airport By-Pass Road, Yelahanka, Bangalore – 560064, India" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "aim",
+            "patterns": [ "what is your aim?", "What is your mission", "How you impact others?" ],
+            "responses": [ "We want to eliminate hunger at its root. We want to ensure that the voices of the malnourished and hungry in India are heard and their needs are met through our efforts. We also want to make people aware that a lot of food that would otherwise go to waste can be used to feed hungry stomachs. We connect donors with those in greatest need of food through our food distribution network." ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Programs",
+            "patterns": [ "Tell me about the Programs offered", "Programs", "What are your programs", "Programs that you offer", "Programs that you do" ],
+            "responses": [ "There are many programs that we offer which includes, NGO Feeding Program, Breakfast Feeding Program for School Children, Food Rescue Program, Food Relief Program" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "NGO_Feeding_Program",
+            "patterns": [ "Tell me about the NGO feeding program", "NGO feeding Program", "What is your NGO feeding programs", "NGO feeding Program that you offer", "what happens in NGO feeding program" ],
+            "responses": [ "NGO feeding program involves service of sustainable supply of sufficient groceries such as rice, pulses, oil, sugar, flours and snacks every month to the identified NGOs " ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Breakfast_Feeding_Program",
+            "patterns": [ "Tell me about the Breakfast feeding program", "Breakfast feeding Program", "What is your breakfast feeding programs for school children", "Breakfast feeding Program that you offer", "what happens in Breakfast feeding program" ],
+            "responses": [ "Breakfast feeding program involves service of serve freshly cooked hot nutritious breakfast for all the students on a regular basis at their schools" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Food_Rescue_Program",
+            "patterns": [ "Tell me about the Food Rescue program", "Food Rescue Program", "What is your Food Rescue Program", "Food Rescue Program that you offer", "what happens in Food Rescue program" ],
+            "responses": [ "Items that are near expiration date are collected from manufacters which is then assessed for its safety to consume. Finally it is then distributed to the needy people through various community organizations" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "Food_Relief_Program",
+            "patterns": [ "Tell me about the Food Relief program", "Food Relief Program", "What is your Food Relief Program", "Food Relief Program that you offer", "what happens in Food Relief program" ],
+            "responses": [ "Natural disasters such as floods, earthquakes, and pandemics are uncontrollable part of human life. This Food Relief program is expected to address the food crises during such situations." ],
+            "context": [ "" ]
+        }
+
+    ]
+}
